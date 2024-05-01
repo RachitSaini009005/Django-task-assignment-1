@@ -1,0 +1,23 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Automation</title>
+
+    <link rel="stylesheet" href="{% static 'task_automation/style.css' %}">
+</head>
+<body>
+    <form id="text-form">
+        <input type="text" id="text1" placeholder="Enter text 1">
+        <input type="text" id="text2" placeholder="Enter text 2">
+        <input type="text" id="text3" placeholder="Enter text 3">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="results"></div>
+
+    <script src="{% static 'task_automation/script.js' %}"></script>
+</body>
+</html>

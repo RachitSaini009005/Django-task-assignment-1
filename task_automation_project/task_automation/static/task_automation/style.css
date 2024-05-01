@@ -1,0 +1,44 @@
+/* task_automation/static/task_automation/styles.css */
+
+/* Form styles */
+#text-form {
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Results styles */
+#results {
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#results p {
+    margin-bottom: 5px;
+}
